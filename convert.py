@@ -1,11 +1,12 @@
 import os
+#pip install pywin32
 import win32com.client
 
 # Ruta al archivo de Word que queremos convertir a PDF
-word_file_path = "C:/Users/DELL/Documents/sonia_proyecto_de_vida.doc"
+word_file_path = "C:/ejemplo.doc"
 
 # Ruta donde queremos guardar el archivo PDF resultante
-pdf_file_path = "C:/Users/DELL/Documents/sonia.pdf"
+pdf_file_path = "C:/ejemplo.pdf"
 
 # Creamos una instancia de Word
 word = win32com.client.Dispatch('Word.Application')
